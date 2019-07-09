@@ -59,7 +59,8 @@ function createDevTools() {
 
 // 修改应用启动事件
 app.on('ready', () => {
-  createWindow();
+  // createWindow();
+  console.log("修改修改")
   // 只在开发环境加载开发者工具
   isDev && createDevTools();
 });
